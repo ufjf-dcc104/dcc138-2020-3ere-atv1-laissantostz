@@ -29,7 +29,7 @@
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       //Atualiza estados
-      x = x + 10*dt;
+      x = x + 100*Math.sin(t/500)*dt;
       y = 100 + 1500*Math.cos(t/200)*dt;
 
       //Desenha elementos
